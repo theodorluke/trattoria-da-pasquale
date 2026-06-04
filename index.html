@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trattoria Da Pasquale - Authentische italienische Küche in Frankfurt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html" class="logo">a tavola</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">STARTSEITE</a></li>
+                <li><a href="#speisekarte">SPEISEKARTE</a></li>
+                <li><a href="#about">ÜBER UNS</a></li>
+                <li><a href="#contact">KONTAKT</a></li>
+                <li><a href="impressum.html">IMPRESSUM</a></li>
+                <li><a href="datenschutz.html">DATENSCHUTZ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Trattoria Da Pasquale</h1>
+            <p>Authentische italienische Küche</p>
+            <a href="#speisekarte" class="btn btn-primary">ZUR SPEISEKARTE</a>
+        </div>
+    </section>
+
+    <!-- Unsere Spezialitäten -->
+    <section class="specialties">
+        <div class="container">
+            <h2>Unsere Spezialitäten</h2>
+            <div class="specialty-grid">
+                <div class="specialty-card">
+                    <img src="assets/pasta.jpg" alt="Spaghetti Carbonara">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Klassische italienische Pasta mit Ei, Speck und Pecorino Romano</p>
+                    <span class="price">€18,50</span>
+                </div>
+                <div class="specialty-card">
+                    <img src="assets/pizza.jpg" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>Frischer Teig mit Tomaten, Mozzarella und Basilikum</p>
+                    <span class="price">€12,00</span>
+                </div>
+                <div class="specialty-card">
+                    <img src="assets/restaurant.jpg" alt="Gemütliche Atmosphäre">
+                    <h3>Gemütliche Atmosphäre</h3>
+                    <p>Genießen Sie italienisches Flair in entspannter Umgebung</p>
+                    <span class="price">Reservierung</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speisekarte Preview -->
+    <section id="speisekarte" class="menu-preview">
+        <div class="container">
+            <h2>Unsere Speisekarte</h2>
+            <p class="subtitle">Authentische italienische Gerichte, täglich frisch zubereitet</p>
+            
+            <div class="menu-grid">
+                <div class="menu-column">
+                    <h3>Antipasti</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Carpaccio di Filetto</h4>
+                                <span class="price">€18,50</span>
+                            </div>
+                            <p>Mariniertes Rinderfilet mit Rucola und Parmesan</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Vitello Tonnato</h4>
+                                <span class="price">€18,00</span>
+                            </div>
+                            <p>Kalbsfleischscheiben mit Thunfischsoße</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Gazpacho di Pomodoro</h4>
+                                <span class="price">€18,50</span>
+                            </div>
+                            <p>Tomaten Gazpacho mit frittiertem Büffelmozzarella</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-column">
+                    <h3>Pasta Specialità</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Tagliatelle Tartufo</h4>
+                                <span class="price">€28,50</span>
+                            </div>
+                            <p>Mit schwarzem Trüffel aus dem Parmesanlaib</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Risotto Frutti di Mare</h4>
+                                <span class="price">€21,00</span>
+                            </div>
+                            <p>Mit Garnelen und Burrata</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Linguini con Vongole</h4>
+                                <span class="price">€22,00</span>
+                            </div>
+                            <p>Mit frischen Venusmuscheln</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <a href="speisekarte.html" class="btn btn-primary">VOLLSTÄNDIGE SPEISEKARTE ANSEHEN</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🍕</div>
+                    <h3>Frische Zutaten</h3>
+                    <p>Täglich frisch und direkt aus Italien</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👨‍🍳</div>
+                    <h3>Handwerk</h3>
+                    <p>Traditionelle italienische Rezepte</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Leidenschaft</h3>
+                    <p>Mit Liebe zubereitet für Sie</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Über uns -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Über uns</h2>
+            <div class="about-content">
+                <p>Willkommen bei der Trattoria Da Pasquale – Ihrem authentischen italienischen Restaurant in Frankfurt. Seit Jahren servieren wir unseren Gästen echte italienische Küche mit frischen Zutaten und traditionellen Rezepten.</p>
+                <p>Bei uns bedeutet „a tavola" – „zum Tisch" – dass Sie hier Familie sind. Ob ein schnelles Mittagessen, ein gemütlicher Abend mit Freunden oder eine Feier – wir schaffen die perfekte Atmosphäre für jeden Anlass.</p>
+                <p>Unsere Pizzas werden in unserem Steinofen gebacken, unsere Pastas täglich frisch zubereitet. Qualität und Geschmack stehen an erster Stelle. Pasquale und seine Frau sowie ihr Team sind übrigens auch wunderbar herzliche Gastgeber, so dass man sich beim Besuch ihrer schönen Trattoria immer willkommen und wohl fühlt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kundenbewertungen -->
+    <section class="reviews">
+        <div class="container">
+            <h2>Was unsere Gäste sagen</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Fantastische Pizza und sehr freundliches Personal. Ich komme gerne wieder!"</p>
+                    <strong>Marco S.</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Die Pasta schmeckt wie in Italien! Absolute Empfehlung für alle Italienfans."</p>
+                    <strong>Julia K.</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Ein Stück Italien mitten in Frankfurt! Die Gerichte sind authentisch und köstlich."</p>
+                    <strong>Anna L.</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Super Service und eine tolle Weinauswahl. Wir kommen immer wieder gerne hierher."</p>
+                    <strong>Max P.</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Die beste Pizza, die ich seit langem gegessen habe. Knusprig und perfekt belegt!"</p>
+                    <strong>Sophie B.</strong>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Großartige Atmosphäre und leckeres Essen. Das beste italienische Restaurant in Frankfurt!"</p>
+                    <strong>Thomas M.</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt & Reservierung -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt & Öffnungszeiten</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>📍 Adresse</h3>
+                    <p>Mörfelder Landstraße 82<br>60598 Frankfurt am Main</p>
+                </div>
+                <div class="contact-info">
+                    <h3>📞 Telefon</h3>
+                    <p>069 / 612 613<br>0172 / 6848848</p>
+                </div>
+                <div class="contact-info">
+                    <h3>🕐 Öffnungszeiten</h3>
+                    <p>Mo - Fr: 12:00 - 14:30 Uhr<br>Mo - Sa: 18:00 - 23:00 Uhr</p>
+                </div>
+            </div>
+            <div class="reservation-cta">
+                <h3>Reservierung</h3>
+                <p>Buchen Sie jetzt einen Tisch bei uns. Wir freuen uns auf Ihren Besuch!</p>
+                <a href="https://www.quandoo.de/place/trattoria-da-pasquale-86290/widget?aid=146&utm_source=quandoo-partner&utm_medium=widget-link" class="btn btn-primary" target="_blank">JETZT RESERVIEREN</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Trattoria Da Pasquale</h4>
+                    <p>Authentische italienische Küche in Frankfurt</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Öffnungszeiten</h4>
+                    <p>Mo - Fr: 12:00 - 14:30<br>Mo - Sa: 18:00 - 23:00</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Kontakt</h4>
+                    <p>069 / 612 613<br>0172 / 6848848</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Trattoria Da Pasquale. Alle Rechte vorbehalten.</p>
+                <div class="footer-links">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html">Datenschutz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
